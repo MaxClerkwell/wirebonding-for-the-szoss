@@ -3,7 +3,7 @@
 Slides for a 20-minute talk on Chip-on-Board and wire bonding at SZOSS (Shenzhen Open Source Silicon).
 LaTeX Beamer, 16:9.
 
-Structure: title, what is CoB, ways to bond, wire bonding, TAB, challenges, open.cob.json, about me; extra: design for bonding.
+Structure: title, what is CoB, ways to bond, wire bonding, TAB, challenges, open.cob.json, about me; extras: design for bonding, what a bonder program looks like, from the lab.
 
 ## Build
 

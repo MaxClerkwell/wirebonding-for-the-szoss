@@ -386,4 +386,46 @@
   \end{center}
 \end{frame}
 
+% ======================================================================
+% Extra: the bonder program
+\newcommand{\shot}[3]{%
+  \begin{minipage}[t]{#1}\centering
+    \includegraphics[width=\linewidth,height=3.1cm,keepaspectratio]{images/#2}\\[0.2em]
+    {\scriptsize\textbf{#3}}
+  \end{minipage}}
+\begin{frame}{Extra: what a bonder program looks like}
+  \footnotesize
+  Every wire on the bonder needs its own set of parameters:\\[0.6em]
+  \centering
+  \shot{0.27\textwidth}{bonder-placement.jpg}{1. Placement}\hfill
+  \shot{0.27\textwidth}{bonder-bond-params.jpg}{2. Bond: force, US, time}\hfill
+  \shot{0.17\textwidth}{bonder-loop-params.jpg}{3. Loop trajectory}\hfill
+  \shot{0.27\textwidth}{bonder-tear-params.jpg}{4. Tear off}
+  \vfill
+  \raggedright
+  \begin{itemize}\setlength\itemsep{0.1em}
+    \item Placement comes from chip and board; bond and loop from wire, metallization and wire length
+    \item All of this is already in a \texttt{*.cob.json} file
+    \item \textbf{Next step for open.cob.json: generate the bonder program directly from the file}
+  \end{itemize}
+\end{frame}
+
+% ======================================================================
+% Extra: from the lab
+\newcommand{\labpic}[2]{%
+  \begin{minipage}[t]{0.235\textwidth}\centering
+    \includegraphics[width=\linewidth,height=0.6\textheight,keepaspectratio]{images/#1}\\[0.2em]
+    {\scriptsize\color{cobgrey} #2}
+  \end{minipage}}
+\begin{frame}{Extra: from the lab}
+  \centering
+  \labpic{lab-die-on-pcb.jpg}{Bare die glued and bonded on a test PCB}\hfill
+  \labpic{lab-pixel-chip-microscope.jpg}{Bonded pixel chip under the microscope}\hfill
+  \labpic{lab-eyepiece.jpg}{What the bonder operator sees}\hfill
+  \labpic{lab-cleanroom.jpg}{Cleanroom, mask on}
+  \vfill
+  \small Two years of hands-on bonding of HV-MAPS detector chips.
+  \textbf{Need something special bonded? Let's talk.}
+\end{frame}
+
 \end{document}
