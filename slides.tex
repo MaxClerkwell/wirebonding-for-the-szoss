@@ -352,4 +352,38 @@
   \end{columns}
 \end{frame}
 
+% ======================================================================
+% Extra / backup slide
+\begin{frame}{Extra: Design for Bonding}
+  \footnotesize
+  \begin{columns}[T]
+    \column{0.485\textwidth}
+      \begin{block}{On the chip}
+        \begin{itemize}\setlength\itemsep{0.2em}
+          \item Pad openings large enough for the tool\\
+                {\scriptsize\color{cobgrey} e.g.\ $\geq$\,70\,$\mu$m for a 25\,$\mu$m Al wedge}
+          \item Pads on the die edge, not in the middle of the die
+          \item Top metallization decides wire, force and temperature: clarify it early
+          \item Plan ground / substrate pads and extra probe pads
+          \item A notch or marker, so the orientation is clear under the microscope
+        \end{itemize}
+      \end{block}
+    \column{0.485\textwidth}
+      \begin{block}{On the board}
+        \begin{itemize}\setlength\itemsep{0.2em}
+          \item Surface finish matching the wire\\
+                {\scriptsize\color{cobgrey} e.g.\ Al wedge on ENIG}
+          \item Bond finger pitch and angle matching the pads; stagger when tight
+          \item Short wires, equal length where it matters (EMC, differential pairs)
+          \item Die attach area, via keepout under the die, fiducials
+          \item Budget for placement tolerance: 50--100\,$\mu$m
+        \end{itemize}
+      \end{block}
+  \end{columns}
+  \vfill
+  \begin{center}
+    \small Not sure your chip or board fits this? \textbf{Bring it, let's talk.}
+  \end{center}
+\end{frame}
+
 \end{document}
