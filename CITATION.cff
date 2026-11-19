@@ -1,0 +1,27 @@
+cff-version: 1.2.0
+message: "If you use these slides, please cite them as below."
+title: "Wirebonding for the SZOSS: From Bare Die to Working Chip on a Board"
+authors:
+  - family-names: Bökelmann
+    given-names: Stephan
+    orcid: "https://orcid.org/0000-0002-2119-0064"
+    affiliation: "nabla B Ingenieurbüro und Dienstleistungs-UG (haftungsbeschränkt), Bochum, Germany"
+version: 1.0.0
+doi: 10.5281/zenodo.24369990
+date-released: 2026-11-19
+license: CC-BY-4.0
+repository-code: "https://github.com/MaxClerkwell/wirebonding-for-the-szoss"
+keywords:
+  - wire bonding
+  - chip-on-board
+  - open source silicon
+preferred-citation:
+  type: slides
+  title: "Wirebonding for the SZOSS: From Bare Die to Working Chip on a Board"
+  authors:
+    - family-names: Bökelmann
+      given-names: Stephan
+      orcid: "https://orcid.org/0000-0002-2119-0064"
+  year: 2026
+  doi: 10.5281/zenodo.24369990
+  url: "https://doi.org/10.5281/zenodo.24369990"

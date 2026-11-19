@@ -34,7 +34,8 @@
 \setbeamertemplate{itemize items}[circle]
 \setbeamerfont{frametitle}{series=\bfseries, size=\Large}
 \setbeamertemplate{footline}{%
-  \hfill\usebeamercolor[fg]{footline}\scriptsize\color{cobgrey}%
+  \usebeamercolor[fg]{footline}\scriptsize\color{cobgrey}%
+  \hspace{1em}doi:\talkdoi\hfill
   Wirebonding for the SZOSS\quad\insertframenumber/\inserttotalframenumber\hspace{1em}\vspace{0.6em}}
 
 \newcommand{\xhslogo}{\raisebox{-0.2ex}{\includegraphics[height=1.3em]{images/xiaohongshu.png}}}
@@ -43,11 +44,13 @@
 \newlength{\stackw}
 
 % ---------- metadata ----------
+% DOI of this talk on Zenodo (reserved before the release, see CITATION.cff)
+\newcommand{\talkdoi}{10.5281/zenodo.24369990}
 \title{Wirebonding for the SZOSS}
 \subtitle{From bare die to working chip on a board}
 \author{Stephan Bökelmann}
 \institute{SZOSS -- Shenzhen Open Source Silicon\\[0.2em]\texttt{maxclerkwell.tech}}
-\date{\today}
+\date{\today\\[0.8em]{\scriptsize\color{cobgrey}DOI \talkdoi\quad CC BY 4.0}}
 
 \begin{document}
 
